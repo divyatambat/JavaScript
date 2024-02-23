@@ -1,0 +1,50 @@
+body {
+	font-family: sans-serif;
+	text-align: center;
+	padding: 3rem;
+	font-size: 1.125rem;
+	line-height: 1.5;
+	transition: all 725ms ease-in-out;
+}
+
+button {
+	cursor: pointer;
+	align-items: center;
+	appearance: none;
+	border-radius: 4px;
+	font-size: 1.110rem;
+	padding: 0.75rem 1rem;
+	border: 1px solid blanchedalmond;
+	background-color: teal;
+	color: white;
+}
+
+table {
+	font-family: sans-serif;
+	padding: 10px;
+	text-align-last: center;
+	font-size: 1.1;
+	text-align: center;
+	margin: auto;
+	tr:hover {background-color: rgb(241, 215, 149);}
+}
+
+th, tr, td {
+	border-bottom: 1px solid teal;
+	padding: 5px;
+	
+}
+
+#loading {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(192, 192, 192, 0.5);
+	background-image: url("https://i.stack.imgur.com/MnyxU.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+  }
